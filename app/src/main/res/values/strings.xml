@@ -8,6 +8,8 @@
     <string name="sign_in">Sign In</string>
     <string name="logout">LogOut</string>
     <string name="dashboard">Dashboard</string>
+    <string name="text">Type your text here...</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

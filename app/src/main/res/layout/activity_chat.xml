@@ -7,6 +7,7 @@
     tools:context=".ChatActivity">
 
     <android.support.design.widget.AppBarLayout
+        android:id="@+id/bar_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -39,5 +40,31 @@
 
     </android.support.design.widget.AppBarLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/banner"
+        android:layout_alignParentBottom="true">
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_send"
+            android:background="@android:color/transparent"
+            android:hint="@string/text"
+            android:layout_toLeftOf="@+id/btn_send"
+            android:layout_centerVertical="true"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btn_send"
+            android:layout_alignParentRight="true"/>
+
+
+
+    </RelativeLayout>
+    
+    
 </RelativeLayout>
