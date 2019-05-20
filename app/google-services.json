@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "558543839320",
+    "firebase_url": "https://michat-ed7ae.firebaseio.com",
+    "project_id": "michat-ed7ae",
+    "storage_bucket": "michat-ed7ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558543839320:android:67783a8813c0692e",
+        "android_client_info": {
+          "package_name": "com.example.michat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558543839320-sk5eb44o021mpu12j4gjpu0nt027l5t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF72cpG-sRjN_EdLE0vFAHPNWqZnwE-b0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558543839320-sk5eb44o021mpu12j4gjpu0nt027l5t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
