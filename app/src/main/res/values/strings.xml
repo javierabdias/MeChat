@@ -6,7 +6,7 @@
     <string name="password">Password</string>
     <string name="sign_up">Sign up</string>
     <string name="sign_in">Sign In</string>
-    <string name="logout">LogOut</string>
+    <string name="logout">Log Out</string>
     <string name="dashboard">Dashboard</string>
     <string name="text">Type your text here...</string>
 

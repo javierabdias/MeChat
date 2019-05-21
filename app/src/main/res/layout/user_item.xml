@@ -14,42 +14,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <android.support.constraint.ConstraintLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="10dp">
 
-            <ImageView
-                android:id="@+id/imageView2"
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginEnd="28dp"
-                android:layout_marginRight="28dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/username_item"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_launcher" />
+
 
             <TextView
                 android:id="@+id/username_item"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="28dp"
-                android:layout_marginLeft="28dp"
-                android:layout_marginTop="13dp"
-                android:layout_marginBottom="13dp"
                 android:text="username"
-                android:textSize="15sp"
                 android:textAllCaps="true"
                 android:textColor="@color/title"
+                android:textSize="15sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView2"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_toRightOf="@+id/profile_image"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"/>
 
-        </android.support.constraint.ConstraintLayout>
+            <TextView
+                android:id="@+id/last_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/light_gray"
+                android:layout_below="@id/username_item"
+                android:layout_marginTop="10dp"
+                android:paddingTop="5dp"
+                android:layout_marginLeft="60dp"
+                />
+
+        </RelativeLayout>
 
     </android.support.v7.widget.CardView>
 
